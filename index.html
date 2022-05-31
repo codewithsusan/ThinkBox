@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="/CSS/bootstrap.min.css">
+    <title>Think Box</title>
+</head>
+
+<body>
+    <!-- Navbar  -->
+    <section id="navbar">
+        <nav class="navbar navbar-expand-lg bg-primary">
+            <div class="container-fluid mt-2 d-flex justify-content-between">
+
+                <a class="navbar-brand text-white mx-5" href="#">
+                    <img class="navbar-logo" src="/Images/think-bulb.png" alt="">
+                    <h4 class="fw-semibold fs-2 my-3">
+                        Think Box
+                    </h4>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar_toggler"
+                    aria-controls="navbar_toggler" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbar_toggler">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item ps-4">
+                            <a class="nav-link active text-center text-white" href="#buzz">Buzz</a>
+                        </li>
+                        <li class="nav-item ps-4">
+                            <a class="nav-link text-white  text-center" href="#features">Features</a>
+                        </li>
+                        <li class="nav-item ps-4">
+                            <a class="nav-link text-white  text-center" href="#benefits">Benefits</a>
+                        </li>
+                        <li class="nav-item ps-4">
+                            <a class="nav-link text-white  text-center" href="#membership">Membership</a>
+                        </li>
+                        <li class="nav-item ps-4">
+                            <a class="nav-link text-white  text-center" href="#footer">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+
+    <!-- Title -->
+
+    <section id="title">
+        <div class=" bg-primary pt-1 shadow">
+            <div class="alert alert-danger alert-dismissible fade show w-50 d-flex mx-auto" role="alert">
+                <strong>Hola !</strong> This is a sample page.
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            <div class="container mx-auto mt-5 pt-3">
+                <div class="row text-white pt-3 pb-5 mt-2">
+                    <div class="col-lg-6 d-block justify-content-center align-self-center px-3 mb-3" id="title">
+                        <div>
+                            <h1 class="display-4 fw-light">Think Box</h1>
+                            <p>Ready-to-use Bootstrap Theme</p>
+                        </div>
+                        <div class="row">
+                            <span class="col-8">
+                                <input type="email" class="form-control" placeholder="Email address here">
+                            </span>
+                            <span class="col-4 ">
+                                <button type="submit" class="btn btn-outline-light">Subscribe</button>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mt-5 text-center d-block align-self-center ">
+                        <img class="title-image " src="/Images/Profile Picture.png" alt="">
+                        <h3 class="fw-lighter fs-3 mt-4"> Lin Myat</h3>
+                        <p>"I wish i found this earlier!"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Skills -->
+
+
+    <section id="skills">
+        <div class="container-fluid my-5 d-flex justify-content-around">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                <path
+                    d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                <path
+                    d="M0 32l34.9 395.8L192 480l157.1-52.2L384 32H0zm313.1 80l-4.8 47.3L193 208.6l-.3.1h111.5l-12.8 146.6-98.2 28.7-98.8-29.2-6.4-73.9h48.9l3.2 38.3 52.6 13.3 54.7-15.4 3.7-61.6-166.3-.5v-.1l-.2.1-3.6-46.3L193.1 162l6.5-2.7H76.7L70.9 112h242.2z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                <path
+                    d="M0 32v448h448V32H0zm243.8 349.4c0 43.6-25.6 63.5-62.9 63.5-33.7 0-53.2-17.4-63.2-38.5l34.3-20.7c6.6 11.7 12.6 21.6 27.1 21.6 13.8 0 22.6-5.4 22.6-26.5V237.7h42.1v143.7zm99.6 63.5c-39.1 0-64.4-18.6-76.7-43l34.3-19.8c9 14.7 20.8 25.6 41.5 25.6 17.4 0 28.6-8.7 28.6-20.8 0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5 0-31.6 24.1-55.6 61.6-55.6 26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18-12.3 0-20.1 7.8-20.1 18 0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2 0 37.8-29.8 58.6-69.7 58.6z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                <path
+                    d="M333.5,201.4c0-22.1-15.6-34.3-43-34.3h-50.4v71.2h42.5C315.4,238.2,333.5,225,333.5,201.4z M517,188.6 c-9.5-30.9-10.9-68.8-9.8-98.1c1.1-30.5-22.7-58.5-54.7-58.5H123.7c-32.1,0-55.8,28.1-54.7,58.5c1,29.3-0.3,67.2-9.8,98.1 c-9.6,31-25.7,50.6-52.2,53.1v28.5c26.4,2.5,42.6,22.1,52.2,53.1c9.5,30.9,10.9,68.8,9.8,98.1c-1.1,30.5,22.7,58.5,54.7,58.5h328.7 c32.1,0,55.8-28.1,54.7-58.5c-1-29.3,0.3-67.2,9.8-98.1c9.6-31,25.7-50.6,52.1-53.1v-28.5C542.7,239.2,526.5,219.6,517,188.6z M300.2,375.1h-97.9V136.8h97.4c43.3,0,71.7,23.4,71.7,59.4c0,25.3-19.1,47.9-43.5,51.8v1.3c33.2,3.6,55.5,26.6,55.5,58.3 C383.4,349.7,352.1,375.1,300.2,375.1z M290.2,266.4h-50.1v78.4h52.3c34.2,0,52.3-13.7,52.3-39.5 C344.7,279.6,326.1,266.4,290.2,266.4z" />
+            </svg>
+        </div>
+    </section>
+
+
+    <!-- Buzz -->
+
+    <section id="buzz">
+        <div class="container-fluid mx-auto bg-primary p-4 shadow">
+            <div class="row justify-content-center align-items-center my-5">
+                <div class="col-lg-4 col-md-6 col-sm- text-center my-2 my-md-4">
+                    <div class="card mx-4 shadow-lg">
+                        <div class="card-body">
+                            <p>
+                                <strong>"</strong>If I had asked people what they wanted, they would have asked:
+                                <strong>faster
+                                    horses..."</strong>
+                            </p>
+                            <hr>
+                            <p class="text-end fst-italic fw-bolder">- Henry Ford</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm- text-center my-2 my-md-4">
+                    <div class="card mx-4 shadow-lg">
+                        <div class="card-body">
+                            <p>
+                                <strong>"</strong>Your brand is what people say about it, <strong>when you aren't in the
+                                    room."</strong>
+                            </p>
+                            <hr>
+                            <p class="text-end fst-italic fw-bolder">- Jeff Bezos</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm- text-center my-2 my-md-4">
+                    <div class="card mx-4 shadow-lg">
+                        <div class="card-body">
+                            <p>
+                                <strong>"</strong>If you are the smartest one in the room, <strong>you are in the wrong
+                                    room."</strong>
+                            </p>
+                            <hr>
+                            <p class="text-end fst-italic fw-bolder">- Anonymous</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+
+    <section id="features">
+        <div class="container my-5 ">
+            <div class="features-title text-center py-5">
+                <h3 class="display-4"> Trusted by Millions of Users</h3>
+            </div>
+            <div class="properties">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 text-center mt-4">
+                        <img class="features-img" src="/Images/verified-f.png" alt="">
+                        <h4 class="display-6">Answers</h4>
+                        <p>Get advice from the community</p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 text-center mt-4">
+                        <img class="features-img" src="/Images/relationships-f.png" alt="">
+                        <h4 class="display-6">Relationships</h4>
+                        <p>From the people you trust</p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 text-center mt-4">
+                        <img class="features-img" src="/Images/thinking-f.png" alt="">
+                        <h4 class="display-6">Network</h4>
+                        <p>Meet business owners nearby</p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 text-center mt-4">
+                        <img class="features-img" src="/Images/leadership-f.png" alt="">
+                        <h4 class="display-6">Leadership</h4>
+                        <p>For products, events, hiring, and more</p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 text-center mt-4">
+                        <img class="features-img" src="/Images/recommendation-letter-f.png" alt="">
+                        <h4 class="display-6">Recommendation</h4>
+                        <p>By other trusted business owners</p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 text-center mt-4">
+                        <img class="features-img" src="/Images/referrals-f.png" alt="">
+                        <h4 class="display-6">Referrals</h4>
+                        <p>Find new referral opportunities</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits -->
+
+    <section id="benefits">
+
+        <div class="container-fluid bg-primary">
+            <div class="benefits-title text-white text-center py-5">
+                <h3 class="display-4 "> Reinventing the Economy</h3>
+                <p class="text-white-50">Connects owners to each other and the resources they need to succeed.</p>
+            </div>
+
+            <div class="row text-white">
+
+                <div class="col-lg-6 text-decoration-none">
+                    <div class="d-flex ms-5">
+                        <img class="benefits-img mx-4" src="/Images/delivery.png" alt="">
+                        <p class="fs-4 fw-semibold ">Greater Access</p>
+                    </div>
+                    <p class="benefits-exp mb-5 w-50 text-white-50 mx-auto">Get business advice and
+                        recommendations
+                        from
+                        millions of fellow business
+                        owners
+                        all
+                        over the
+                        world.</p>
+                    <div class="d-flex ms-5">
+                        <img class="benefits-img mx-4" src="/Images/two-users.png" alt="">
+                        <p class="fs-4 fw-semibold">Connected Communities</p>
+                    </div>
+                    <p class="benefits-exp mb-5 w-50 text-white-50 mx-auto">Local business communities rely
+                        on
+                        us for
+                        networking, referrals,
+                        messaging, events,
+                        hiring, and more!</p>
+                    <div class="d-flex ms-5">
+                        <img class="benefits-img mx-4" src="/Images/setting.png" alt="">
+                        <p class="fs-4 fw-semibold">Trusted Networks</p>
+                    </div>
+                    <p class="benefits-exp mb-5 w-50 text-white-50 mx-auto">Connect with business owners
+                        based on
+                        location,
+                        industry, target
+                        customer, current
+                        needs, and opportunities.</p>
+                </div>
+                <div class="col-lg-6 d-flex align-items-center">
+                    <div class="card w-50 mx-auto shadow my-5">
+                        <img src="/Images/Card-image.png" class="card-img-top w-50 mx-auto  my-4" alt="">
+
+                        <div class="card-body text-center shadow-lg">
+                            <div class="card-title text-white display-6">
+                                <h4 class="text-black">
+                                    Emily Reucker
+                                </h4>
+                            </div>
+                            <div class="card-text text-black ">
+                                <ul class="list-unstyled lh-5">
+                                    <li>
+                                        Likely to share foot traffic
+                                    </li>
+                                    <li>
+                                        Discover her likes
+                                    </li>
+                                    <li>
+                                        Send her a note or referral
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <!-- Gallery -->
+    <!-- <section id="gallery">
+
+    </section> -->
+
+    <!-- Membership -->
+
+    <section id="membership">
+        <div class="container-fluid my-5">
+            <div class="container">
+                <div class="display-6 fw-normal text-dark my-5">Members Forum</div>
+                <div class="row">
+                    <div class="col-lg-4 d-flex justify-content-center">
+                        <div class="card w-75 shadow">
+                            <div class="card-body ">
+                                <div class="card-title text-center fs-2 fw-normal ">
+                                    Advice
+                                </div>
+                            </div>
+                            <img class="w-25 mx-auto mb-3" src="/Images/advice.png" alt="">
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4 d-flex justify-content-center">
+                        <div class="card w-75 shadow">
+                            <div class="card-body ">
+                                <div class="card-title text-center fs-2 fw-normal ">Documents</div>
+                            </div>
+                            <img class="w-25 mx-auto mb-3" src="/Images/documents.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 d-flex justify-content-center">
+                        <div class="card w-75 shadow">
+                            <div class="card-body ">
+                                <div class="card-title text-center fs-2 fw-normal ">Questions</div>
+                            </div>
+                            <img class="mx-auto w-25 mb-3" src="/Images/question.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Testimonials -->
+    <section id="testimonials">
+
+        <div id="testimonials-carousel" class="carousel bg-primary slide text-white shadow" data-bs-ride="carousel">
+            <div class="container-fluid ">
+                <div class="carousel-indicators my-5">
+                    <button type="button" data-bs-target="#testimonials-carousel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#testimonials-carousel" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#testimonials-carousel" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner text-center py-5">
+                    <div class="carousel-item active my-5">
+                        <h1>Feel Better</h1>
+                        <p>When you look good you feel better.</p>
+                        <!-- <img src="" class="d-block w-100" alt=""> -->
+                    </div>
+                    <div class="carousel-item my-5">
+                        <h1>More Time</h1>
+                        <p>Do the things you want to be doing.</p>
+                        <!-- <img src="" class="d-block w-100" alt="..."> -->
+                    </div>
+                    <div class="carousel-item my-5">
+                        <h1>Spend Less</h1>
+                        <p>Save money to buy what you really want.</p>
+                        <!-- <img src="" class="d-block w-100" alt=""> -->
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonials-carousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonials-carousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="community">
+        <div class="container-fluid">
+            <div class="display-6 text-center my-5 ">22,000+ communities are networking!</div>
+            <div class="row mx-5 text-center mb-5">
+                <div class="col-lg-2 fw-normal my-2">Boston, MA</div>
+                <div class="col-lg-2 fw-normal my-2">San Diego, CA</div>
+                <div class="col-lg-2 fw-normal my-2">Scottsdale, AZ</div>
+                <div class="col-lg-2 fw-normal my-2">Charlotte, NC</div>
+                <div class="col-lg-2 fw-normal my-2">Detroit, MI</div>
+                <div class="col-lg-2 fw-normal my-2">South Bend, IN</div>
+                <div class="col-lg-2 fw-normal my-2">Dallas, TX</div>
+                <div class="col-lg-2 fw-normal my-2">Tampa, FL</div>
+                <div class="col-lg-2 fw-normal my-2">New York, NY</div>
+                <div class="col-lg-2 fw-normal my-2">Las Vegas, NV</div>
+                <div class="col-lg-2 fw-normal my-2">Portland, ME</div>
+                <div class="col-lg-2 fw-normal my-2">Chicago, IL</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer">
+        <div class="container-fluid bg-primary text-white">
+            <div class="row py-5 px-5">
+                <div class="col-lg-6">
+                    <img class="footer-logo me-2" src="/Images/think-bulb.png" alt="">
+                    <h4 class="mx-2 mt-2">Think Box</h4>
+                    <div class="row my-5 ">
+                        <div class="col-6 fw-normal">
+                            <a href="" class="text-decoration-none text-white">
+                                Product
+                            </a>
+                        </div>
+                        <div class="col-6 fw-normal py-1">
+                            <a href="" class="text-decoration-none text-white">
+                                Documentation
+                            </a>
+
+                        </div>
+                        <div class="col-6 fw-normal py-1">
+                            <a href="" class="text-decoration-none text-white">
+                                Benefits
+                            </a>
+
+                        </div>
+                        <div class="col-6 fw-normal py-1">
+                            <a href="" class="text-decoration-none text-white">
+                                Support
+                            </a>
+
+                        </div>
+                        <div class="col-6 fw-normal py-1">
+                            <a href="" class="text-decoration-none text-white">
+                                Partners
+                            </a>
+
+                        </div>
+                        <div class="col-6 fw-normal py-1">
+                            <a href="" class="text-decoration-none text-white">
+                                Legal Terms
+                            </a>
+
+                        </div>
+                        <div class="col-6 fw-normal py-1">
+                            <a href="" class="text-decoration-none text-white">
+                                Team
+                            </a>
+
+                        </div>
+                        <div class="col-6 fw-normal py-1">
+                            <a href="" class="text-decoration-none text-white">
+                                About
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="social-media d-flex justify-content-center w-75 my-3">
+                        <a href="" class="text-white text-decoration-none"><i
+                                class="fa-brands fa-twitter mx-5 fa-2x"></i></a>
+                        <a href="" class="text-white text-decoration-none"><i
+                                class="fa-brands fa-instagram mx-5 fa-2x"></i></a>
+                        <a href="" class="text-white text-decoration-none"><i
+                                class="fa-brands fa-facebook mx-5 fa-2x"></i></a>
+                    </div>
+
+                </div>
+                <div class="col-lg-6">
+                    <h4>Ask Us</h4>
+                    <input type="email" class="form-control w-75 mt-3" placeholder="Enter your email">
+                    <textarea name="message" class="form-control w-75 my-3" cols="5" rows="5"
+                        placeholder="Enter your message..."></textarea>
+                    <div class="btn btn-outline-light btn-lg fw-semibold">Submit</div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bg-dark py-5 text-white text-center fs-5">@ 2022 SusanCo. All rights reserved.</div>
+    </section>
+
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a927c2f139.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

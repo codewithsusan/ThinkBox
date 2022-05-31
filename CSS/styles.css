@@ -1,0 +1,31 @@
+.title-image {
+  width: 40%;
+}
+
+svg {
+  width: 75px;
+}
+
+.features-img {
+  width: 25%;
+}
+
+.benefits-img {
+  width: 10%;
+  float: left;
+}
+
+.footer-logo {
+  width: 10%;
+  float: left;
+}
+
+.navbar-logo {
+  width: 15%;
+  float: left;
+}
+
+/* #navbar {
+  position: fixed;
+  top: 0%;
+} */
